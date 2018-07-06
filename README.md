@@ -12,7 +12,7 @@ The `merging` approach is ordinary.
 
 Recommended steps for practicing the `patching` approach are as follows.
 ```
-# Switch the branch `fix`.
+# Switch to the branch `fix`.
 shell> git checkout fix
 
 # Create a collection of "*.patch" files from branch `fix` w.r.t. the "topmost local commit" of branch `master` as a reference for diff, i.e. as the <since> parameter.
